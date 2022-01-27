@@ -161,7 +161,7 @@ for i in range(5):
 bottom_frame = Frame(win)
 bottom_frame.grid(row=2)
 
-lbl = Text(bottom_frame, width=60)
+lbl = Text(bottom_frame, height=18, width=60)
 lbl.configure(font=("Helvetica", 8))
 btn_choose = Button(bottom_frame, text='Find bot pillar place', height=2)
 btn_choose["command"] = lambda btn_choose=btn_choose: choose(btnpil_list, btnhv_list, btnhh_list, tpl, bldv, bldh, lbl)
